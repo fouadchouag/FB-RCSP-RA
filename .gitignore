@@ -1,0 +1,26 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+.venv/
+.env
+*.log
+
+# DonnÃ©es (Ã  adapter)
+data/bbci2a/*
+!data/bbci2a/.gitkeep
+
+figures/
+article/
+upload-github.ps1
+
+# SystÃ¨me
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
