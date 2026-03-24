@@ -7,7 +7,7 @@
 > **Official implementation of:**
 > *"FB-RCSP-RA: A Filter-Bank Regularized Common Spatial Pattern Framework with
 > Per-Band Riemannian Alignment for Cross-Subject Motor Imagery EEG Decoding"*
-> [Authors] — [Journal Name], Under Review, 2025.
+> [Authors] — [Journal Name], Under Review, 2026.
 
 ---
 
@@ -48,6 +48,7 @@ FB-RCSP-RA/
 ├── run_all.py                        # Run all experiments (LOSO + CV5)
 │
 ├── data/
+|   ├── bbci2a                        # Dataset bci cmpetition 2a must be here
 │   ├── loader.py                     # EEG data loader with EA preprocessing
 │   └── README_data.md                # Dataset download instructions
 │
@@ -71,11 +72,9 @@ FB-RCSP-RA/
 │   └── run_fbrcspra_cv5.py           # Proposed method — CV5
 │
 ├── results/
-│   ├── fb_rcspra_loso.csv            # LOSO results (all methods)
-│   └── fb_rcspra_cv5_metrics.csv     # CV5 results (all methods)
+│   ├── *_loso.csv            # LOSO results 
+│   └── *_cv5_metrics.csv     # CV5 results 
 │
-└── figures/
-    └── reproduce_figures.py          # Reproduces all paper figures
 ```
 
 ---
@@ -138,14 +137,6 @@ Testing on A03 ... Accuracy: 0.6458
 Mean LOSO: 0.4298   Std: 0.1809
 ```
 
-### Reproduce all paper figures
-
-```bash
-python figures/reproduce_figures.py
-```
-
----
-
 ## Key Implementation Details
 
 | Parameter | Value |
@@ -201,7 +192,7 @@ If you use this code in your research, please cite:
                Motor Imagery EEG Decoding},
   author    = {[Authors]},
   journal   = {[Journal Name]},
-  year      = {2025},
+  year      = {2026},
   note      = {Under Review}
 }
 ```
@@ -234,3 +225,4 @@ See [LICENSE](LICENSE) for details.
 
 For questions or issues, please open a GitHub Issue or contact:
 fouad.chouag@univ-setif.dz
+amfouad.chouag@gmail.com
