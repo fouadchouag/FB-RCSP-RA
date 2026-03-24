@@ -7,7 +7,7 @@
 > **Official implementation of:**
 > *"FB-RCSP-RA: A Filter-Bank Regularized Common Spatial Pattern Framework with
 > Per-Band Riemannian Alignment for Cross-Subject Motor Imagery EEG Decoding"*
-> [Authors] — [Journal Name], Under Review, 2026.
+> Fouad CHOUAG, Abdallah KHABABA — The Open Biomedical Engineering Journal, Under Review, 2026.
 
 ---
 
