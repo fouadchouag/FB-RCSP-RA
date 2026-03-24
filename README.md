@@ -190,9 +190,9 @@ If you use this code in your research, please cite:
   title     = {FB-RCSP-RA: A Filter-Bank Regularized Common Spatial Pattern
                Framework with Per-Band Riemannian Alignment for Cross-Subject
                Motor Imagery EEG Decoding},
-  author    = {[Authors]},
-  journal   = {[Journal Name]},
-  year      = {2026},
+  author    = {Fouad CHOUAG, Abdallah KHABABA},
+  journal   = {The Open Biomedical Engineering Journal},
+  year      = {March 2026},
   note      = {Under Review}
 }
 ```
